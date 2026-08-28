@@ -40,6 +40,8 @@ tech-stack-lab/
 ├── frankenphp/                      # runtime PHP moderne
 ├── java/
 ├── springboot/
+├── python/
+├── django/
 │
 ├── vuejs/
 ├── nuxtjs/
@@ -117,30 +119,32 @@ L'ordre suit une logique de dépendances : les fondamentaux du web d'abord, puis
 | 11 | `frankenphp` | Runtime PHP moderne (embarque PHP dans un binaire Go, alternative à Nginx+PHP-FPM), vu après Symfony/Laravel qu'il sert à exécuter/déployer |
 | 12 | `java` | Langage backend alternatif typé statiquement, comparaison utile avec PHP avant d'attaquer Spring Boot |
 | 13 | `springboot` | Framework Java de référence en entreprise, équivalent Symfony/Laravel côté JVM |
-| 14 | `vuejs` | Framework front progressif, bon pont après JS/TS |
-| 15 | `nuxtjs` | Sur-couche full-stack de Vue (SSR, routing, etc.) |
-| 16 | `react` | Autre grand framework front, comparaison utile avec Vue |
-| 17 | `angular` | Troisième framework front, plus structurant/opinionated (proche de la logique Symfony/Spring côté front) |
-| 18 | `react-native` | Développement mobile via React, réutilise directement les bases React |
-| 19 | `flutter` | Développement mobile via Dart, paradigme différent (widgets, compilation native) à comparer avec React Native |
-| 20 | `wordpress` | CMS PHP le plus répandu, logique différente d'un framework |
-| 21 | `drupal` | CMS PHP plus structurant/entreprise |
-| 22 | `tailwindcss` | Approche utility-first, à voir une fois le CSS et un framework front maîtrisés |
-| 23 | `mysql` | SGBD relationnel de référence en PHP/web |
-| 24 | `postgresql` | SGBD relationnel avancé, comparaison avec MySQL |
-| 25 | `redis` | Cache / structures en mémoire, complément aux SGBD |
-| 26 | `linux` | Environnement d'exécution serveur, prérequis Docker/CI |
-| 27 | `docker` | Conteneurisation, standard pour dev et déploiement |
-| 28 | `kubernetes` | Orchestration de conteneurs à l'échelle, suite logique de Docker |
-| 29 | `github` | Collaboration, PR, Actions, gestion de projet |
-| 30 | `ci-cd` | Automatisation build/test/déploiement, s'appuie sur Docker/Kubernetes/GitHub |
-| 31 | `testing` | Qualité de code, à appliquer à tout ce qui a été vu |
-| 32 | `security` | Sécurité applicative, transverse à toutes les technos précédentes |
-| 33 | `api` | Conception d'API (REST/GraphQL), synthèse backend |
-| 34 | `accessibility-performance` | a11y + Core Web Vitals, synthèse front |
-| 35 | `algorithms-data-structures` | Bases théoriques, utiles pour la performance et les entretiens |
-| 36 | `system-design` | Architecture logicielle et scalabilité, niveau avancé/expertise |
-| 37 | `ai` | Intégration de l'IA dans des applications web, une fois les bases solides |
+| 14 | `python` | Troisième langage backend alternatif, incontournable (scripting, data, IA), syntaxe très différente de PHP/Java à comparer |
+| 15 | `django` | Framework Python le plus structurant, équivalent Symfony/Spring côté Python ("batteries included") |
+| 16 | `vuejs` | Framework front progressif, bon pont après JS/TS |
+| 17 | `nuxtjs` | Sur-couche full-stack de Vue (SSR, routing, etc.) |
+| 18 | `react` | Autre grand framework front, comparaison utile avec Vue |
+| 19 | `angular` | Troisième framework front, plus structurant/opinionated (proche de la logique Symfony/Spring côté front) |
+| 20 | `react-native` | Développement mobile via React, réutilise directement les bases React |
+| 21 | `flutter` | Développement mobile via Dart, paradigme différent (widgets, compilation native) à comparer avec React Native |
+| 22 | `wordpress` | CMS PHP le plus répandu, logique différente d'un framework |
+| 23 | `drupal` | CMS PHP plus structurant/entreprise |
+| 24 | `tailwindcss` | Approche utility-first, à voir une fois le CSS et un framework front maîtrisés |
+| 25 | `mysql` | SGBD relationnel de référence en PHP/web |
+| 26 | `postgresql` | SGBD relationnel avancé, comparaison avec MySQL |
+| 27 | `redis` | Cache / structures en mémoire, complément aux SGBD |
+| 28 | `linux` | Environnement d'exécution serveur, prérequis Docker/CI |
+| 29 | `docker` | Conteneurisation, standard pour dev et déploiement |
+| 30 | `kubernetes` | Orchestration de conteneurs à l'échelle, suite logique de Docker |
+| 31 | `github` | Collaboration, PR, Actions, gestion de projet |
+| 32 | `ci-cd` | Automatisation build/test/déploiement, s'appuie sur Docker/Kubernetes/GitHub |
+| 33 | `testing` | Qualité de code, à appliquer à tout ce qui a été vu |
+| 34 | `security` | Sécurité applicative, transverse à toutes les technos précédentes |
+| 35 | `api` | Conception d'API (REST/GraphQL), synthèse backend |
+| 36 | `accessibility-performance` | a11y + Core Web Vitals, synthèse front |
+| 37 | `algorithms-data-structures` | Bases théoriques, utiles pour la performance et les entretiens |
+| 38 | `system-design` | Architecture logicielle et scalabilité, niveau avancé/expertise |
+| 39 | `ai` | Intégration de l'IA dans des applications web, une fois les bases solides |
 
 ---
 
@@ -159,6 +163,8 @@ L'ordre suit une logique de dépendances : les fondamentaux du web d'abord, puis
 - [ ] frankenphp
 - [ ] java
 - [ ] springboot
+- [ ] python
+- [ ] django
 - [ ] vuejs
 - [ ] nuxtjs
 - [ ] react
