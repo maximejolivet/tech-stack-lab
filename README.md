@@ -150,45 +150,45 @@ L'ordre suit une logique de dépendances : les fondamentaux du web d'abord, puis
 
 ## Suivi global
 
-- [ ] git
-- [ ] html
-- [ ] css
-- [ ] javascript
-- [ ] typescript
-- [ ] php
-- [ ] design-patterns
-- [ ] nodejs
-- [ ] symfony
-- [ ] laravel
-- [ ] frankenphp
-- [ ] java
-- [ ] springboot
-- [ ] python
-- [ ] django
-- [ ] vuejs
-- [ ] nuxtjs
-- [ ] react
-- [ ] angular
-- [ ] react-native
-- [ ] flutter
-- [ ] wordpress
-- [ ] drupal
-- [ ] tailwindcss
-- [ ] mysql
-- [ ] postgresql
-- [ ] redis
-- [ ] linux
-- [ ] docker
-- [ ] kubernetes
-- [ ] github
-- [ ] ci-cd
-- [ ] testing
-- [ ] security
-- [ ] api
-- [ ] accessibility-performance
-- [ ] algorithms-data-structures
-- [ ] system-design
-- [ ] ai
+- [x] git
+- [x] html
+- [x] css
+- [x] javascript
+- [x] typescript
+- [x] php
+- [x] design-patterns
+- [x] nodejs
+- [x] symfony
+- [x] laravel
+- [x] frankenphp
+- [x] java
+- [x] springboot
+- [x] python
+- [x] django
+- [x] vuejs
+- [x] nuxtjs
+- [x] react
+- [x] angular
+- [x] react-native
+- [x] flutter
+- [x] wordpress
+- [x] drupal
+- [x] tailwindcss
+- [x] mysql
+- [x] postgresql
+- [x] redis
+- [x] linux
+- [x] docker
+- [x] kubernetes
+- [x] github
+- [x] ci-cd
+- [x] testing
+- [x] security
+- [x] api
+- [x] accessibility-performance
+- [x] algorithms-data-structures
+- [x] system-design
+- [x] ai
 
 ---
 
