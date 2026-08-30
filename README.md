@@ -51,6 +51,7 @@ tech-stack-lab/
 │
 ├── react-native/                    # mobile (JS)
 ├── flutter/                         # mobile (Dart)
+├── swift/                           # mobile natif iOS (Swift + SwiftUI)
 │
 ├── wordpress/
 ├── drupal/
@@ -129,24 +130,25 @@ L'ordre suit une logique de dépendances : les fondamentaux du web d'abord, puis
 | 20 | `angular` | Troisième framework front, plus structurant/opinionated (proche de la logique Symfony/Spring côté front) |
 | 21 | `react-native` | Développement mobile via React, réutilise directement les bases React |
 | 22 | `flutter` | Développement mobile via Dart, paradigme différent (widgets, compilation native) à comparer avec React Native |
-| 23 | `wordpress` | CMS PHP le plus répandu, logique différente d'un framework |
-| 24 | `drupal` | CMS PHP plus structurant/entreprise |
-| 25 | `tailwindcss` | Approche utility-first, à voir une fois le CSS et un framework front maîtrisés |
-| 26 | `mysql` | SGBD relationnel de référence en PHP/web |
-| 27 | `postgresql` | SGBD relationnel avancé, comparaison avec MySQL |
-| 28 | `redis` | Cache / structures en mémoire, complément aux SGBD |
-| 29 | `linux` | Environnement d'exécution serveur, prérequis Docker/CI |
-| 30 | `docker` | Conteneurisation, standard pour dev et déploiement |
-| 31 | `kubernetes` | Orchestration de conteneurs à l'échelle, suite logique de Docker |
-| 32 | `github` | Collaboration, PR, Actions, gestion de projet |
-| 33 | `ci-cd` | Automatisation build/test/déploiement, s'appuie sur Docker/Kubernetes/GitHub |
-| 34 | `testing` | Qualité de code, à appliquer à tout ce qui a été vu |
-| 35 | `security` | Sécurité applicative, transverse à toutes les technos précédentes |
-| 36 | `api` | Conception d'API (REST/GraphQL), synthèse backend |
-| 37 | `accessibility-performance` | a11y + Core Web Vitals, synthèse front |
-| 38 | `algorithms-data-structures` | Bases théoriques, utiles pour la performance et les entretiens |
-| 39 | `system-design` | Architecture logicielle et scalabilité, niveau avancé/expertise |
-| 40 | `ai` | Intégration de l'IA dans des applications web, une fois les bases solides |
+| 23 | `swift` | Développement mobile natif iOS, langage et paradigme (SwiftUI) différents des deux approches cross-platform précédentes |
+| 24 | `wordpress` | CMS PHP le plus répandu, logique différente d'un framework |
+| 25 | `drupal` | CMS PHP plus structurant/entreprise |
+| 26 | `tailwindcss` | Approche utility-first, à voir une fois le CSS et un framework front maîtrisés |
+| 27 | `mysql` | SGBD relationnel de référence en PHP/web |
+| 28 | `postgresql` | SGBD relationnel avancé, comparaison avec MySQL |
+| 29 | `redis` | Cache / structures en mémoire, complément aux SGBD |
+| 30 | `linux` | Environnement d'exécution serveur, prérequis Docker/CI |
+| 31 | `docker` | Conteneurisation, standard pour dev et déploiement |
+| 32 | `kubernetes` | Orchestration de conteneurs à l'échelle, suite logique de Docker |
+| 33 | `github` | Collaboration, PR, Actions, gestion de projet |
+| 34 | `ci-cd` | Automatisation build/test/déploiement, s'appuie sur Docker/Kubernetes/GitHub |
+| 35 | `testing` | Qualité de code, à appliquer à tout ce qui a été vu |
+| 36 | `security` | Sécurité applicative, transverse à toutes les technos précédentes |
+| 37 | `api` | Conception d'API (REST/GraphQL), synthèse backend |
+| 38 | `accessibility-performance` | a11y + Core Web Vitals, synthèse front |
+| 39 | `algorithms-data-structures` | Bases théoriques, utiles pour la performance et les entretiens |
+| 40 | `system-design` | Architecture logicielle et scalabilité, niveau avancé/expertise |
+| 41 | `ai` | Intégration de l'IA dans des applications web, une fois les bases solides |
 
 ---
 
@@ -174,6 +176,7 @@ L'ordre suit une logique de dépendances : les fondamentaux du web d'abord, puis
 - [x] angular
 - [x] react-native
 - [x] flutter
+- [x] swift
 - [x] wordpress
 - [x] drupal
 - [x] tailwindcss
