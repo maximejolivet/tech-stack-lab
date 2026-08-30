@@ -43,11 +43,13 @@ tech-stack-lab/
 ├── kotlin/                          # langage JVM alternatif, comparaison avec Java
 ├── python/
 ├── django/
+├── csharp/                          # C# + ASP.NET Core
 │
 ├── vuejs/
 ├── nuxtjs/
 ├── react/
 ├── angular/
+├── svelte/                          # Svelte + SvelteKit (compilateur, sans virtual DOM)
 │
 ├── react-native/                    # mobile (JS)
 ├── flutter/                         # mobile (Dart)
@@ -60,11 +62,13 @@ tech-stack-lab/
 │
 ├── mysql/
 ├── postgresql/
+├── mongodb/                         # NoSQL orienté documents
 ├── redis/
 │
 ├── linux/
 ├── docker/
 ├── kubernetes/
+├── aws/                             # cloud fondamentaux (IAM, S3, EC2, Lambda, RDS...)
 ├── github/
 ├── ci-cd/
 │
@@ -124,31 +128,35 @@ L'ordre suit une logique de dépendances : les fondamentaux du web d'abord, puis
 | 14 | `kotlin` | Langage JVM alternatif à Java, interopérable, vu juste après Java/Spring Boot pour comparer |
 | 15 | `python` | Troisième langage backend alternatif, incontournable (scripting, data, IA), syntaxe très différente de PHP/Java à comparer |
 | 16 | `django` | Framework Python le plus structurant, équivalent Symfony/Spring côté Python ("batteries included") |
-| 17 | `vuejs` | Framework front progressif, bon pont après JS/TS |
-| 18 | `nuxtjs` | Sur-couche full-stack de Vue (SSR, routing, etc.) |
-| 19 | `react` | Autre grand framework front, comparaison utile avec Vue |
-| 20 | `angular` | Troisième framework front, plus structurant/opinionated (proche de la logique Symfony/Spring côté front) |
-| 21 | `react-native` | Développement mobile via React, réutilise directement les bases React |
-| 22 | `flutter` | Développement mobile via Dart, paradigme différent (widgets, compilation native) à comparer avec React Native |
-| 23 | `swift` | Développement mobile natif iOS, langage et paradigme (SwiftUI) différents des deux approches cross-platform précédentes |
-| 24 | `wordpress` | CMS PHP le plus répandu, logique différente d'un framework |
-| 25 | `drupal` | CMS PHP plus structurant/entreprise |
-| 26 | `tailwindcss` | Approche utility-first, à voir une fois le CSS et un framework front maîtrisés |
-| 27 | `mysql` | SGBD relationnel de référence en PHP/web |
-| 28 | `postgresql` | SGBD relationnel avancé, comparaison avec MySQL |
-| 29 | `redis` | Cache / structures en mémoire, complément aux SGBD |
-| 30 | `linux` | Environnement d'exécution serveur, prérequis Docker/CI |
-| 31 | `docker` | Conteneurisation, standard pour dev et déploiement |
-| 32 | `kubernetes` | Orchestration de conteneurs à l'échelle, suite logique de Docker |
-| 33 | `github` | Collaboration, PR, Actions, gestion de projet |
-| 34 | `ci-cd` | Automatisation build/test/déploiement, s'appuie sur Docker/Kubernetes/GitHub |
-| 35 | `testing` | Qualité de code, à appliquer à tout ce qui a été vu |
-| 36 | `security` | Sécurité applicative, transverse à toutes les technos précédentes |
-| 37 | `api` | Conception d'API (REST/GraphQL), synthèse backend |
-| 38 | `accessibility-performance` | a11y + Core Web Vitals, synthèse front |
-| 39 | `algorithms-data-structures` | Bases théoriques, utiles pour la performance et les entretiens |
-| 40 | `system-design` | Architecture logicielle et scalabilité, niveau avancé/expertise |
-| 41 | `ai` | Intégration de l'IA dans des applications web, une fois les bases solides |
+| 17 | `csharp` | Quatrième langage backend alternatif, écosystème Microsoft/.NET (ASP.NET Core), comparaison utile avec Java/Kotlin côté typage et runtime managé |
+| 18 | `vuejs` | Framework front progressif, bon pont après JS/TS |
+| 19 | `nuxtjs` | Sur-couche full-stack de Vue (SSR, routing, etc.) |
+| 20 | `react` | Autre grand framework front, comparaison utile avec Vue |
+| 21 | `angular` | Troisième framework front, plus structurant/opinionated (proche de la logique Symfony/Spring côté front) |
+| 22 | `svelte` | Quatrième framework front, paradigme radicalement différent (compilateur, pas de virtual DOM) à comparer avec Vue/React/Angular |
+| 23 | `react-native` | Développement mobile via React, réutilise directement les bases React |
+| 24 | `flutter` | Développement mobile via Dart, paradigme différent (widgets, compilation native) à comparer avec React Native |
+| 25 | `swift` | Développement mobile natif iOS, langage et paradigme (SwiftUI) différents des deux approches cross-platform précédentes |
+| 26 | `wordpress` | CMS PHP le plus répandu, logique différente d'un framework |
+| 27 | `drupal` | CMS PHP plus structurant/entreprise |
+| 28 | `tailwindcss` | Approche utility-first, à voir une fois le CSS et un framework front maîtrisés |
+| 29 | `mysql` | SGBD relationnel de référence en PHP/web |
+| 30 | `postgresql` | SGBD relationnel avancé, comparaison avec MySQL |
+| 31 | `mongodb` | Base NoSQL orientée documents, contrepoint aux deux SGBD relationnels précédents |
+| 32 | `redis` | Cache / structures en mémoire, complément aux SGBD |
+| 33 | `linux` | Environnement d'exécution serveur, prérequis Docker/CI |
+| 34 | `docker` | Conteneurisation, standard pour dev et déploiement |
+| 35 | `kubernetes` | Orchestration de conteneurs à l'échelle, suite logique de Docker |
+| 36 | `aws` | Cloud provider de référence, où Docker/Kubernetes tournent réellement en production, plus les primitives cloud (IAM, S3, EC2, Lambda) |
+| 37 | `github` | Collaboration, PR, Actions, gestion de projet |
+| 38 | `ci-cd` | Automatisation build/test/déploiement, s'appuie sur Docker/Kubernetes/GitHub/AWS |
+| 39 | `testing` | Qualité de code, à appliquer à tout ce qui a été vu |
+| 40 | `security` | Sécurité applicative, transverse à toutes les technos précédentes |
+| 41 | `api` | Conception d'API (REST/GraphQL), synthèse backend |
+| 42 | `accessibility-performance` | a11y + Core Web Vitals, synthèse front |
+| 43 | `algorithms-data-structures` | Bases théoriques, utiles pour la performance et les entretiens |
+| 44 | `system-design` | Architecture logicielle et scalabilité, niveau avancé/expertise |
+| 45 | `ai` | Intégration de l'IA dans des applications web, une fois les bases solides |
 
 ---
 
@@ -170,10 +178,12 @@ L'ordre suit une logique de dépendances : les fondamentaux du web d'abord, puis
 - [x] kotlin
 - [x] python
 - [x] django
+- [x] csharp
 - [x] vuejs
 - [x] nuxtjs
 - [x] react
 - [x] angular
+- [x] svelte
 - [x] react-native
 - [x] flutter
 - [x] swift
@@ -182,10 +192,12 @@ L'ordre suit une logique de dépendances : les fondamentaux du web d'abord, puis
 - [x] tailwindcss
 - [x] mysql
 - [x] postgresql
+- [x] mongodb
 - [x] redis
 - [x] linux
 - [x] docker
 - [x] kubernetes
+- [x] aws
 - [x] github
 - [x] ci-cd
 - [x] testing
